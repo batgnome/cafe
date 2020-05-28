@@ -1,10 +1,6 @@
 class MenuController < ApplicationController
   def index
+    @menus = Menu.all
   end
 
-  def edit
-  end
-
-  def show
-  end
 end

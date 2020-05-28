@@ -14,8 +14,8 @@ ActiveRecord::Schema.define(version: 2020_05_22_150639) do
 
   create_table "menus", force: :cascade do |t|
     t.string "item"
-    t.integer "price"
-    t.string "type"
+    t.float "price"
+    t.string "item_type"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

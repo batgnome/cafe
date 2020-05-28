@@ -1,2 +1,12 @@
-<h1>Menu#index</h1>
-<p>Find me in app/views/menu/index.html.erb</p>
+<div>
+<% @menus.each  do |menu|  %>
+<li>
+
+<%= menu.item %>
+<%= menu.price %>
+<%= menu.item_type %>
+</li>
+
+<% end %>
+
+</div>
